@@ -21,6 +21,7 @@
       ll = "ls -lah";
 
       g = "git";
+      lg = "lazygit";
     };
 
     zplug = {

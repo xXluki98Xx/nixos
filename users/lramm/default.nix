@@ -1,8 +1,5 @@
 { config, pkgs, ... }: {
 
-  # Let Home Manager install and manage itself.
-  programs.home-manager.enable = true;
-
   imports = [
     ./shell.nix
   ];
@@ -20,6 +17,26 @@
     # the home Manager release notes for a list of state version
     # changes in each release.
     stateVersion = "24.05";
+  };
+
+  # Program Settings
+  programs = {
+
+    # Let Home Manager install and manage itself.
+    home-manager.enable = true;
+
+    # Type `<ctrl> + r` to fuzzy search your shell history
+    fzf.enable = true;
+
+    # Better `cat`
+    # https://github.com/sharkdp/bat
+    bat.enable = true;
+
+    # https://github.com/aristocratos/btop
+    btop.enable = true;
+
+    # terminal gui
+    lazygit.enable = true;
   };
 
 }
