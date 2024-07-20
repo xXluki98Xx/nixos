@@ -9,6 +9,7 @@
   };
 
   imports = [
+    ./tilix.nix
     ./zsh.nix
     ./git.nix
   ];
