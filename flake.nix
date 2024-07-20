@@ -46,6 +46,7 @@
           # the path to your user/username/default.nix.
           modules = [
             ./users/lramm
+            ./modules/user/obsidian
           ];
         };
       };
