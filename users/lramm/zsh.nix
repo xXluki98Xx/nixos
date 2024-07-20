@@ -19,6 +19,8 @@
 
     shellAliases = {
       ll = "ls -lah";
+
+      g = "git";
     };
 
     zplug = {
