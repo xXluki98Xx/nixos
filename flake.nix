@@ -48,6 +48,7 @@
             ./users/lramm
             ./modules/user/obsidian
             ./modules/user/vscode
+            ./modules/user/vlc
           ];
         };
       };
