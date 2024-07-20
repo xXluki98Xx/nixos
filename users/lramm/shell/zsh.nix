@@ -13,6 +13,9 @@
 
     # Definiere benutzerdefinierte Funktionen
     initExtra = ''
+      # navigate over auto-completion list
+      zstyle ':completion:::::default' menu yes select
+
       zstyle ':autocomplete:*' fzf-completion yes
 
       # Insert unambigous prefix first before completing
