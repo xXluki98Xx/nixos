@@ -31,7 +31,11 @@
           email = "lramm.dev@gmail.com";
           name = "lRamm";
         };
+        credential.helper = "libsecret";
       };
+
+      package = pkgs.gitFull;
+
     };
 
   };
