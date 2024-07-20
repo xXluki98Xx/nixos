@@ -36,6 +36,17 @@
             ./modules/system/fingerprint
           ];
         };
+
+        zimaboard = nixpkgs.lib.nixosSystem {
+          inherit system;
+
+          modules = [
+            ./hosts/zimaboard832
+            ./modules/system/garbage-collector
+            ./modules/system/nix-flakes
+            ./modules/system/home-manager
+          ];
+        };
       };
 
       homeConfigurations = {
