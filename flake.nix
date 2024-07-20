@@ -44,6 +44,7 @@
           # Specify your home configuration modules here, for example,
           # the path to your user/username/default.nix.
           modules = [
+            ./users/lramm
           ];
         };
       };
