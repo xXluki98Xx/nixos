@@ -28,12 +28,19 @@
       enable = true;
       
       plugins = [
+        { name = "zplug/zplug"; tags = [  ]; }
+
         { name = "romkatv/powerlevel10k"; tags = [ as:theme depth:1 ]; }
         { name = "~/p10k-config/"; tags = [ from:local use:.p10k.zsh ]; }
 
         { name = "plugins/kubectl"; tags = [ from:oh-my-zsh ]; }
         { name = "plugins/kubectl-fzf"; tags = [ from:oh-my-zsh ]; }
         { name = "plugins/helm"; tags = [ from:oh-my-zsh ]; }
+
+        { name = "plugins/sudo"; tags = [ from:oh-my-zsh ]; }
+        { name = "zdharma/fast-syntax-highlighting"; tags = [  ]; }
+        { name = "zsh-users/zsh-autosuggestions"; tags = [  ]; }
+        { name = "zsh-users/zsh-completions"; tags = [  ]; }
       ];
     };
 
