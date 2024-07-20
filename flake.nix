@@ -49,6 +49,7 @@
             ./modules/user/obsidian
             ./modules/user/vscode
             ./modules/user/vlc
+            ./modules/user/thunderbird
           ];
         };
       };
