@@ -61,6 +61,7 @@
             ./modules/user/vscode
             ./modules/user/vlc
             ./modules/user/thunderbird
+            ./modules/user/kubernetes
           ];
         };
       };
