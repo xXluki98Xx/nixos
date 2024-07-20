@@ -11,3 +11,9 @@ sudo nixos-rebuild switch --flake .#framework13
 ```bash
 home-manager switch --flake .#lramm
 ```
+
+## Update Flake
+
+```bash
+nix flake update
+```
