@@ -1,0 +1,5 @@
+# ignore all files inside the data dirs
+**/data/*
+
+# ignore cache files
+.direnv
