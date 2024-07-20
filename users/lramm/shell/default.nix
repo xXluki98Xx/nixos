@@ -12,6 +12,7 @@
     ./tilix.nix
     ./zsh.nix
     ./git.nix
+    ./ssh.nix
   ];
 
 }
