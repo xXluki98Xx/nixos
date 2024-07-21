@@ -3,15 +3,16 @@
   programs.ssh = {
     enable = true;
 
-    forwardAgent = false;
-    hashKnownHosts = false;
+    # forwardAgent = false;
+    # hashKnownHosts = false;
 
     controlMaster = "auto";
-    controlPath = "~/.ssh/controlmaster/%r@%h:%p";
+    controlPath = "~/.ssh/%r@%h:%p";
     controlPersist = "10m";
 
     extraConfig = ''
       strictHostKeyChecking accept-new
+      IdentitiesOnly yes
     '';
 
   };
