@@ -32,6 +32,7 @@
           name = "lRamm";
         };
         credential.helper = "libsecret";
+        push.autoSetupRemote = true;
       };
 
       package = pkgs.gitFull;
