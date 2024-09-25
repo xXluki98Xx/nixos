@@ -46,6 +46,7 @@
 
           modules = [
             ./hosts/zimaboard832
+
             ./modules/system/garbage-collector
             ./modules/system/nix-flakes
             ./modules/system/home-manager
@@ -64,6 +65,7 @@
 
             ./modules/user/vlc
             ./modules/user/thunderbird
+            ./modules/user/calibre
 
             ./modules/user/obsidian
             ./modules/user/vscode
