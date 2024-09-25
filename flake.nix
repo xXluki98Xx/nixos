@@ -31,13 +31,18 @@
           modules = [
             ./hosts/framework13-intel11
 
+            # nixos specifics
             ./modules/system/garbage-collector
             ./modules/system/nix-flakes
             ./modules/system/home-manager
 
-            ./modules/system/arduino
-
+            # hardware specifics
             ./modules/system/fingerprint
+
+            # develoment
+            ./modules/system/arduino
+            ./modules/system/docker
+            # ./modules/system/podman
           ];
         };
 
@@ -71,6 +76,7 @@
             ./modules/user/vscode
 
             ./modules/user/kubernetes
+            ./modules/user/containerTools
           ];
         };
       };
