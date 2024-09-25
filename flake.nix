@@ -30,9 +30,13 @@
 
           modules = [
             ./hosts/framework13-intel11
+
             ./modules/system/garbage-collector
             ./modules/system/nix-flakes
             ./modules/system/home-manager
+
+            ./modules/system/arduino
+
             ./modules/system/fingerprint
           ];
         };
@@ -57,10 +61,13 @@
           # the path to your user/username/default.nix.
           modules = [
             ./users/lramm
-            ./modules/user/obsidian
-            ./modules/user/vscode
+
             ./modules/user/vlc
             ./modules/user/thunderbird
+
+            ./modules/user/obsidian
+            ./modules/user/vscode
+
             ./modules/user/kubernetes
           ];
         };
