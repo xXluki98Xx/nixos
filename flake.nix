@@ -40,7 +40,7 @@
             ./modules/system/fingerprint
 
             # develoment
-            ./modules/system/arduino
+            # ./modules/system/arduino
             ./modules/system/docker
             # ./modules/system/podman
           ];
